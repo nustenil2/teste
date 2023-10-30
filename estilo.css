@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+align-items: center;
+    }
+.logo{
+    flex: 20%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.logo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-size: 30px;
+}
+ 
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+    }
+.menu a:hover{
+    color: pink;
+    border-top: 4px solid yellow;
+}
+#botao{
+    background: yellow;
+    padding: 10px 25px;
+    color: red;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+#botao:hover{
+    border: none;
+    background: gray;
+    color: white
+}
+
+.principal{
+    display: flex;
+    flex-flow: row wrap;
+    height: 300px;
+    margin-top: 50px;
+    }
+    .texto{
+    margin-left: 10%;
+    flex: 40%;
+    }
+    .texto h2{
+        font-weight: 900;
+        font-size: 20px;
+        color: green;
+        padding: 0;
+        margin: 0;
+        }
+        .texto p{
+            color: black;
+            }
+
+        .botaosobre{
+            display: inline-block;
+            background: green;
+            padding: 10px;
+            color: red;
+            text-decoration: none;
+            }
+
+    .imagem{
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 10%;
+    flex: 40%;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .botaosobre:hover{
+        background: black;
+        }
